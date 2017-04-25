@@ -1,0 +1,412 @@
+body{
+   background-color: #E8E8E8;
+   
+    margin: 0;
+
+}
+
+#googleMap{
+    float: right;
+    width:345px;
+    position: static;
+}
+.brightness {
+    background-color: white;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
+}
+#cv{
+    background-image:"http://widewallpaper.info/wp-content/uploads/2016/02/white-color-wallpaper.jpg";
+    
+    }
+
+#topcv{
+    background-color:#F0F0F0;
+    
+}
+#welcomeHead{
+     margin-left: 15px;
+     text-align: center;
+
+}
+#contact{
+    margin-left: 200px;
+    margin-top: 2px;
+    border: solid 1px;
+    padding: 0 10px 10px 10px;
+    margin-right: 50%;
+    background-color: #DDD;
+    border-radius: 5px;
+}
+
+#button{
+    background-color: #282828;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    min-height: 15px;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 3px;
+    margin-top: 0;
+}
+
+#button:hover, .button:hover{
+    background-color: #888888 ;
+}
+
+iframe{
+    width: 80%;
+    height: 65%;
+    margin-left: 200px;
+    margin-top: 2px;
+}
+#headhr{
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    }
+#headhr:after{
+    content: "X-Music";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+#fronthr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#frontfield{
+      border:2px;
+    border-radius: 8px;
+    box-shadow: 2px;
+}
+
+#upperMenu{
+    float: right;
+}
+#frontTable{
+
+    text-align: center;
+}
+#frontTable td{
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+#inside{
+    margin-left: 200px;
+    height: 100%
+}
+#inside2{
+    height: 100%;
+}
+#mar{
+    background-color:#C0C0C0;
+    padding: 10px;
+}
+
+#vertical{
+    padding: 2px;
+    top: 229px;
+    bottom: 500px;
+    position:fixed;
+    list-style-type: none;
+    
+}
+
+#top{
+    background-color: white;
+    
+    
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#products_box{
+    width:780px;
+    text-align:center;
+    margin-left:30px;
+    margin-bottom:10px;
+
+    
+}
+
+    #single_product{
+    float:left;
+    margin-left:30px;
+    padding:20px;
+    margin-top: 30px;
+    background: #E8E8E8 ;
+
+    }
+    #single_product img{
+    border:2px solid black;
+
+    }   
+    .backtable{
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12);
+        border: 1px solid #E4E4E4;
+        
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        max-width: 1000px;
+
+    }
+    .backtable th{
+        text-align: center;
+    }
+    .backtable table thead{
+        background-color: #3399FF;
+
+    }
+
+    .frontcart{
+        text-align: right;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12);
+        border: 1px solid #E4E4E4;
+        background-color: #FFFFFF;
+        position: fixed;
+        right: 10px;
+        
+        font-family: Arial;
+    }
+    .frontcart h3{
+        text-align: center;
+        padding: 5px;
+        margin: 6px;
+
+    }
+    #shopping_cart{
+        width:800px;
+        height:50px;
+        background:black;
+        color:white;
+    }
+
+
+#footer{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+    margin-top: 80px;
+}
+#link{
+    list-style:none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 23px 23px;
+    margin: 0;
+}
+#link a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+#title{
+    color: #8d9093;
+    font-size: 24px;
+    margin: 0;
+}
+#designer{
+    color: grey;
+}
+
+#footerimg{
+    height:75px;
+    width:125px;
+    
+}
+
+.poll{
+    padding: 20px;
+    border:1px solid #ccc;
+}
+
+.poll-question{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.poll-options{
+    margin-bottom: 20px;
+}
+
+.poll-option{
+    margin-bottom: 10px;
+}
+
+ul.share-buttons{
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+  padding-top:2px;
+}
+ul.share-buttons li{
+  display: inline;
+  padding: 2px;
+}
+
+.cssload-container{
+    position:relative;
+    margin-top: 45px;
+}
+    
+.cssload-whirlpool,
+.cssload-whirlpool::before,
+.cssload-whirlpool::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgb(204,204,204);
+    border-left-color: rgb(0,0,0);
+    border-radius: 974px;
+        -o-border-radius: 974px;
+        -ms-border-radius: 974px;
+        -webkit-border-radius: 974px;
+        -moz-border-radius: 974px;
+}
+
+.cssload-whirlpool {
+    margin: -24px 0 0 -24px;
+    height: 49px;
+    width: 49px;
+    animation: cssload-rotate 2050ms linear infinite;
+        -o-animation: cssload-rotate 2050ms linear infinite;
+        -ms-animation: cssload-rotate 2050ms linear infinite;
+        -webkit-animation: cssload-rotate 2050ms linear infinite;
+        -moz-animation: cssload-rotate 2050ms linear infinite;
+}
+
+.cssload-whirlpool::before {
+    content: "";
+    margin: -22px 0 0 -22px;
+    height: 43px;
+    width: 43px;
+    animation: cssload-rotate 2050ms linear infinite;
+        -o-animation: cssload-rotate 2050ms linear infinite;
+        -ms-animation: cssload-rotate 2050ms linear infinite;
+        -webkit-animation: cssload-rotate 2050ms linear infinite;
+        -moz-animation: cssload-rotate 2050ms linear infinite;
+}
+
+.cssload-whirlpool::after {
+    content: "";
+    margin: -28px 0 0 -28px;
+    height: 55px;
+    width: 55px;
+    animation: cssload-rotate 4100ms linear infinite;
+        -o-animation: cssload-rotate 4100ms linear infinite;
+        -ms-animation: cssload-rotate 4100ms linear infinite;
+        -webkit-animation: cssload-rotate 4100ms linear infinite;
+        -moz-animation: cssload-rotate 4100ms linear infinite;
+}
+
+
+
+@keyframes cssload-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes cssload-rotate {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes cssload-rotate {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes cssload-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes cssload-rotate {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+.demo-wrapper {
+    width: 500px;
+    margin: 10px auto 0;
+    position: relative;
+    margin-top: 100px;
+}
+.html5-progress-bar {
+    padding: 40px 40px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow:  0px 1px 2px 0px rgba(0, 0, 0, .2);
+}
+.html5-progress-bar progress {
+    background-color: #f3f3f3;
+    border: 0;
+    width: 80%;
+    height: 18px;
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-webkit-progress-value {
+    background: #cdeb8e;
+    background: -moz-linear-gradient(top,  #cdeb8e 0%, #a5c956 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+    background: -webkit-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: -o-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: -ms-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-moz-progress-bar {
+    background: #cdeb8e;
+    background: -moz-linear-gradient(top,  #cdeb8e 0%, #a5c956 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+    background: -webkit-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: -o-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: -ms-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+    background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+    border-radius: 9px;
+}
+.html5-progress-bar .progress-value {
+    padding: 0px 5px;
+    line-height: 20px;
+    margin-left: 5px;
+    font-size: .8em;
+    color: #555;
+    height: 18px;
+    float: right;
+}
+
